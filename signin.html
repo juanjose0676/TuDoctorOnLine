@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/sign.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="./js/onclick.js"></script>
+  <title>SignIn</title>
+</head>
+
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-sm ">
+    <ul class="navbar-nav mr-auto">
+      <div>
+        <a href="index.html">
+          <img class="card-img-top img-fluid resize" src="images/logo1.jpg" style="width:80px;height:60px"
+            alt="Card image cap">
+        </a>
+      </div>
+    </ul>
+  </nav>
+  <div id="sign">
+    <form class="form-signin">
+
+      <a href="index.html">
+        
+        <a class="navbar-brand" href="catalogo.html"></a>
+        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Sign in</h1>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+
+        <a href="homedoctor.html">
+          <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign
+            in as a doctor</button>
+        </a>
+
+        <a href="homepaciente.html">
+            <button class="btn btn-success btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign
+              in as a pacient</button>
+          </a>
+
+
+        <a href="#" id="forgot_pswd">Forgot password?</a>
+        <hr>
+
+        <!-- <p>Don't have an account!</p>  -->
+        <a href="registrodoctor.html">
+          <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i>
+            Registrarse como Doctor</button>
+        </a>
+        <a href="registropaciente.html">
+          <button class="btn btn-secondary btn-block" type="button" id="btn-signup" href="registropaciente"><i
+              class="fas fa-user-plus"></i> Registrarse como Paciente </button>
+        </a>
+
+
+    </form>
+    <br>
+  </div>
+  <!--Footer-->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Doctor Online 2019. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

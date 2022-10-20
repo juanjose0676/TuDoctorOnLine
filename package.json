@@ -1,0 +1,32 @@
+{
+  "name": "parcial1",
+  "version": "1.0.0",
+  "description": "Parcial 1, WEB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "sass estilos.scss css/estilos.css",
+    "compilar2": "sass landing.scss css/landing.css",
+    "compilar3": "sass sign.scss css/sign.css"
+  },
+  "author": "Alexa,Aldo,Esteban,Diego",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^4.3.1",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "mongoose-pagination": "^1.0.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.22.12"
+  }
+}
